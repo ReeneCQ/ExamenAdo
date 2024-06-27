@@ -1,0 +1,19 @@
+﻿using Datos;
+using Entidad;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Negocio
+{
+    public class BRegion
+    {
+        DatosRegion datosRegion = new DatosRegion();
+        public void Insert(Region region)
+        {
+            datosRegion.Insert(region);
+        }
+    }
+}
